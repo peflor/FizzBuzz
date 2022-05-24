@@ -33,3 +33,12 @@ for ($i=0; $i <= 100; $i++) {
           }
   }
   
+  //   version impaire
+
+for ($i=0; $i <= 100; $i++) {
+    if (($i % 2 !== 0)) {
+      echo " $i - FizzBuzz <br>";
+    } else {
+    echo " " . $i . " <br>";
+    }
+  }
